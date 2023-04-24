@@ -29,8 +29,8 @@ let handler = async (m, { conn, text, command, usedPrefix }) => {
 		if (conn.waifudif[m.sender]) delete conn.waifudif[m.sender];
 	}
 };
-handler.help = ["stabledif","aidraw"];
-handler.command = ["stabledif", "aidraw"];
+handler.help = ["stabledif"];
+handler.command = ["stabledif"];
 handler.tags = ["ai"];
 
 handler.premium = true
