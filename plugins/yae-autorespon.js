@@ -125,11 +125,31 @@ let pedalaman = dalam[Math.floor(Math.random() * dalam.length)]
 /* - - - - - - - Ini autoresponder by ryzn - - - - - - - */
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
     
-let fajri = /(Zeltoria)/i
+let fajri = /(menu)/i
     let beban = fajri.exec(m.text)
     let jriban = [
 '😜',
-'😏',
+'🗿',
+'💀',
+'🤡',
+'👻',
+'😈',
+'🥶',
+'🤬',
+'👥',
+'🥰',
+'😓',
+'🌚',
+'🤖',
+'🗣️',
+'👀',
+'👅',
+'🥵',
+'💩',
+'🤌',
+'😱',
+'🖕',
+'💞',
 '🤣'
 ]
 let epicabadi = jriban[Math.floor(Math.random() * jriban.length)]
@@ -140,7 +160,7 @@ let epicabadi = jriban[Math.floor(Math.random() * jriban.length)]
           key: m.key,
         }})
    setTimeout(() => {
-        conn.reply(m.chat, `Apasih Manggil Manggil Ayang Aku ${epicabadi}`, m)
+        conn.reply(m.chat, `Jangan Lupa Join Gc ya bg 🗿`, m)
     }, 1000)
     }
     
