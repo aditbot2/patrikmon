@@ -573,7 +573,7 @@ esteh: 0,
                 if (!('delete' in chat))
                     chat.delete = true
                 if (!('antiLink' in chat))
-                    chat.antiLink = true
+                    chat.antiLink = false
                 if (!('viewonce' in chat))
                     chat.viewonce = false
                 if (!('antiBadword' in chat)) 
@@ -596,7 +596,7 @@ esteh: 0,
                     sPromote: '',
                     sDemote: '',
                     delete: true,
-                    antiLink: true,
+                    antiLink: false,
                     viewonce: false,
                     antiBadword: false,
                     simi: false,
